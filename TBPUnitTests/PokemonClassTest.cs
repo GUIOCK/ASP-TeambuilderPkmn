@@ -41,6 +41,7 @@ namespace TBPUnitTests
         public void GetTypeTest() {
             var result = Type.GetType("water").Name;
             Assert.AreEqual(result, "none");
+
         }
     }
 }
